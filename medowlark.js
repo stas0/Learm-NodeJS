@@ -39,7 +39,7 @@ app.use(function(req, res){
 	res.status(500);
 	res.render(500);
 });
-//comment
+
 app.listen(app.get('port'), function(){
 	console.log('Hello express!');
 });
